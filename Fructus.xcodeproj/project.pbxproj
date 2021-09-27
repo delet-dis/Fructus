@@ -16,6 +16,7 @@
 		FC917123270042690073FD71 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC917122270042690073FD71 /* OnboardingView.swift */; };
 		FC9171272700444F0073FD71 /* FruitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9171262700444F0073FD71 /* FruitModel.swift */; };
 		FC91712B270054540073FD71 /* FruitData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC91712A270054540073FD71 /* FruitData.swift */; };
+		FC91712E270176810073FD71 /* FruitRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC91712D270176810073FD71 /* FruitRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		FC917122270042690073FD71 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		FC9171262700444F0073FD71 /* FruitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitModel.swift; sourceTree = "<group>"; };
 		FC91712A270054540073FD71 /* FruitData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitData.swift; sourceTree = "<group>"; };
+		FC91712D270176810073FD71 /* FruitRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				FC91711B26FF985D0073FD71 /* FruitCardView.swift */,
 				FC91711F27003C000073FD71 /* StartButtonView.swift */,
+				FC91712D270176810073FD71 /* FruitRowView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 			files = (
 				FC91712B270054540073FD71 /* FruitData.swift in Sources */,
 				FC91711C26FF985D0073FD71 /* FruitCardView.swift in Sources */,
+				FC91712E270176810073FD71 /* FruitRowView.swift in Sources */,
 				FC91712027003C000073FD71 /* StartButtonView.swift in Sources */,
 				FC91710A26FF927B0073FD71 /* ContentView.swift in Sources */,
 				FC917123270042690073FD71 /* OnboardingView.swift in Sources */,
