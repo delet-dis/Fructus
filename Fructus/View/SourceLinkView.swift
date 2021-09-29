@@ -9,8 +9,8 @@ import SwiftUI
 
 struct SourceLinkView: View {
     var body: some View {
-        GroupBox(){
-            HStack{
+        GroupBox {
+            HStack {
                 Text("Content source")
                 Spacer()
                 Link("Wikipedia", destination: URL(string: "https://wikipedia.com")!)

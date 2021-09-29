@@ -8,11 +8,10 @@
 import SwiftUI
 
 struct FruitRowView: View {
-    
-    var fruit:Fruit
-    
+    var fruit: Fruit
+
     var body: some View {
-        HStack{
+        HStack {
             Image(fruit.image)
                 .renderingMode(.original)
                 .resizable()
@@ -22,12 +21,12 @@ struct FruitRowView: View {
                 .background(
                     LinearGradient(gradient: Gradient(colors: fruit.gradientColor), startPoint: .top, endPoint: .bottom))
                 .cornerRadius(8)
-            
+
             VStack(alignment: .leading, spacing: 5) {
                 Text(fruit.title)
                     .font(.title2)
                     .fontWeight(.bold)
-                
+
                 Text(fruit.headline)
                     .font(.caption)
                     .foregroundColor(Color.secondary)
